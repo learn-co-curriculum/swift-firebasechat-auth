@@ -7,13 +7,10 @@
 //
 
 import XCTest
-import Pods_Firechat
-
 @testable import Firechat
-
 class FirechatTests: XCTestCase {
     
-    let emailString = ""
+    
     
     override func setUp() {
         super.setUp()
@@ -48,7 +45,7 @@ class FirechatTests: XCTestCase {
             }
             
         }
-
+        
         
     }
     
@@ -75,7 +72,7 @@ class FirechatTests: XCTestCase {
             
         }
     }
-
+    
     
     func randomEmail(length: Int) -> String {
         let allowedChars = "abcdefghijklmnopqrstuvwxyz0123456789"
@@ -92,5 +89,5 @@ class FirechatTests: XCTestCase {
         return randomString
     }
     
-
+    
 }

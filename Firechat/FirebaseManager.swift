@@ -11,7 +11,7 @@ import Foundation
 
 class FirebaseManager {
     
-    class func login(email: String, password:String, completion: @escaping (Bool) -> ()) {
+    class func login(email: String, password:String, completion: @escaping (FIRUser, Bool) -> ()) {
         
     }
     
